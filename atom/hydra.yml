@@ -1,0 +1,14 @@
+contracts:
+  longstaking:
+    name: longstaking
+    wasm: atom.wasm
+    abi: atom.abi
+    fixturesDir: tests/fixtures/longstaking
+  oracles:
+    name: oracles
+    wasm: oracles.wasm
+    abi: oracles.abi
+    fixturesDir: tests/fixtures/oracles
+options:
+  serverBaseUrl: 'http://3.96.155.129:8888'
+  skipAuth: false
